@@ -18,6 +18,8 @@ Check out the [main EVA documentation site](https://main.eva-3d.page/) for more 
 
 STL files are under the [`/stl`](/stl) folder. You will need to select the appropriate [Face] mount for your hot end - V6, Dragon, or Mosquito (there currently isn't amount for the stock MK8 hot end). Start with one of the `"_mirrored"` hot end mounts for the ELF/Coreception if you plan on using the BL Touch. I highly recommend printing out and test fitting everything *thoroughly* before disassembling your existing hot end and carriage. I also recommend printing out a spare set of parts, especially anything that is near or touching the hot end.
 
+NOTE: There is a `[Misc] tension_slider_6mm_M3.stl` and `[Misc] tension_slider_6mm_M3_flipped_teeth.stl` for the belt tensioners on the rear. My Coreception uses the `_flipped_teeth` variant, but I would suggest printing out a pair of each, just in case. If you print the wrong ones, you will need to assemble your new carriage backwards, which will cut your Y travel almost in half.
+
 My CAD document for this mod can be accessed [here](https://cad.onshape.com/documents/8374df57f21afb0afda371e1/v/ab8b5f501b92076e0e46f97f/e/99eb3d22b4d42aecd6cd179c) (you may need to create a free OnShape account).
 
 
