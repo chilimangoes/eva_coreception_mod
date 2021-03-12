@@ -23,6 +23,16 @@ NOTE: There is a `[Misc] tension_slider_6mm_M3.stl` and `[Misc] tension_slider_6
 My CAD document for this mod can be accessed [here](https://cad.onshape.com/documents/8374df57f21afb0afda371e1/v/ab8b5f501b92076e0e46f97f/e/99eb3d22b4d42aecd6cd179c) (you may need to create a free OnShape account).
 
 
+## Photos
+
+![IMG_20210306_174934603.jpg](IMG_20210306_174934603.jpg)
+![IMG_20210306_180101041.jpg](IMG_20210306_180101041.jpg)
+![IMG_20210306_181520648.jpg](IMG_20210306_181520648.jpg)
+![IMG_20210306_181805664.jpg](IMG_20210306_181805664.jpg)
+![IMG_20210306_182301766.jpg](IMG_20210306_182301766.jpg)
+![IMG_20210306_182312979.jpg](IMG_20210306_182312979.jpg)
+
+
 ## Mod Details
 
 Here's a brief rundown of my changes, starting with a visual comparison between this mod and the original.
@@ -63,3 +73,11 @@ Here's a brief rundown of my changes, starting with a visual comparison between 
 10. Mount and cover for the stock breakout board, including a tiedown to keep the VGA cable from flopping around.
 
 
+## Photos
+
+![IMG_20210306_174934603.jpg](/images/IMG_20210306_174934603.jpg)
+![IMG_20210306_180101041.jpg](/images/IMG_20210306_180101041.jpg)
+![IMG_20210306_181520648.jpg](/images/IMG_20210306_181520648.jpg)
+![IMG_20210306_181805664.jpg](/images/IMG_20210306_181805664.jpg)
+![IMG_20210306_182301766.jpg](/images/IMG_20210306_182301766.jpg)
+![IMG_20210306_182312979.jpg](/images/IMG_20210306_182312979.jpg)
