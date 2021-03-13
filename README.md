@@ -7,7 +7,7 @@ EVA carriage mod for the Creativity ELF/ELF PRO and SainSmart Coreception lines 
 
 ## Overview
 
-This is a mod for the EVA carriage platform to work on the Creativity ELF/ELF PRO and SainSmart Coreception lines of CoreXY 3D printers. However, the changes have been made in such a way as to try to increase the configurability of the tool head, making it adaptable to a wider range of printers. In particular, it should be trivial to adapt to Core XY printers with a "halo" design, similar to the ELF variants, such as the Two Trees Sapphire.
+This is a mod for the EVA carriage platform to work on the Creativity ELF/ELF PRO and SainSmart Coreception lines of CoreXY 3D printers. However, the changes have been made in such a way as to try to increase the configurability of the tool head, making it adaptable to a wider range of printers. In particular, it should be trivial to adapt to other CoreXY printers with a "halo" design, similar to the ELF variants, such as the Two Trees Sapphire.
 
 Overall print area on my Coreception, with this mod installed, is X=297mm, Y=294mm. I believe that moving the BL Touch to the middle, under the gantry, would increase the X travel by about 10mm. And filing down the M3 bolt hole on the rear blower fan, to allow the bolt head to sit flush with the fan casing, would give another ~3mm of Y travel on the rear.
 
@@ -16,9 +16,9 @@ Check out the [main EVA documentation site](https://main.eva-3d.page/) for more 
 
 ## Files
 
-STL files are under the [`/stl`](/stl) folder. You will need to select the appropriate [Face] mount for your hot end - V6, Dragon, or Mosquito (there currently isn't amount for the stock MK8 hot end). Start with one of the `"_mirrored"` hot end mounts for the ELF/Coreception if you plan on using the BL Touch. I highly recommend printing out and test fitting everything *thoroughly* before disassembling your existing hot end and carriage. I also recommend printing out a spare set of parts, especially anything that is near or touching the hot end.
+STL files are under the [`/stl`](/stl) folder. You will need to select the appropriate [Face] mount for your hot end - V6, Dragon, or Mosquito. There is also an unofficial mount for the stock MK8 hot end [here](https://contrib.eva-3d.page/hotends/microswiss-mk8/). Start with one of the `"_mirrored"` hot end mounts if you plan on using the BL Touch on the the ELF/Coreception. If you're using the onofficial MK8 mount linked above, you'll need to mirror it yourself. I highly recommend printing out and test fitting everything *thoroughly* before disassembling your existing hot end and carriage. I also recommend printing out a spare set of parts, especially anything that is near or touching the hot end. It might also be a good idea to buy some new, higher quality belts before installing. My stock belts were pretty low quality and chewed up pretty badly by the zip ties used to secure them to the stock carriage.
 
-NOTE: There is a `[Misc] tension_slider_6mm_M3.stl` and `[Misc] tension_slider_6mm_M3_flipped_teeth.stl` for the belt tensioners on the rear. My Coreception uses the `_flipped_teeth` variant, but I would suggest printing out a pair of each, just in case. If you print the wrong ones, you will need to assemble your new carriage backwards, which will cut your Y travel almost in half.
+NOTE: There is a `[Misc] tension_slider_6mm_M3.stl` and `[Misc] tension_slider_6mm_M3_flipped_teeth.stl` for the belt tensioners on the rear. My Coreception uses the `_flipped_teeth` variant, but I would suggest printing out a pair of each, just in case. If you print the wrong ones, you will need to assemble your new carriage backwards, which will cut your Y travel almost in half until you print out the correct ones (don't ask me how I know this 😕).
 
 My CAD document for this mod can be accessed [here](https://cad.onshape.com/documents/8374df57f21afb0afda371e1/v/ab8b5f501b92076e0e46f97f/e/99eb3d22b4d42aecd6cd179c) (you may need to create a free OnShape account).
 
