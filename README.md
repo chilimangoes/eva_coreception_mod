@@ -49,7 +49,7 @@ Here's a brief rundown of my changes, starting with a visual comparison between 
 
 5. A new fan shroud was created that is both lower profile, to fit underneath the halo, and also thicker, to be robust enough for triggering the Y end stop.
 
-6. Mounting holes were added to the top of the shroud for mounting an accelerometer to do input shaping in Klipper. Note that this will position the accelerometer where it would hit the Y end stop, so you would need to print some kind of shield to protect the accelerometer PCB. A better option would be to mount the accelerometer to the bottom of the shroud. There is also included a mount (adxl345_mount4.stl) for mounting an ADXL the bottom 2 screws of the fan shroud. At some point, I may also modify the shroud to add dedicated mounting holes on the bottom.
+6. Mounting holes were added to the shroud for mounting an accelerometer to use Resonance Compensation (A.K.A. Input Shaper) in Klipper. 
 
 7. Zip tie anchor points were added to the front face and both sides of the upper BMG/stepper mount to allow routing wires up and over the gantry, in addition to the existing zip timeouts on the bottom of the carriage. My wires are currently routed underneath the carriage, but I'm considering changing it at some point to route the wires over the top. This would be especially useful for adding a Molex MicroFit connector to allow [easier swapping of tool heads](https://youtu.be/zYscXKBwh0o?t=166).
 
@@ -63,6 +63,21 @@ Here's a brief rundown of my changes, starting with a visual comparison between 
 ![rear view / breakout board mount / VGA cable holder](/images/cad05.png)
 
 10. Mount and cover for the stock breakout board, including a tiedown to keep the VGA cable from flopping around.
+
+
+## ADXL345 / Accelerometer Mounting Options
+
+There are 3 options for mouting an ADXL345 accelerometer for Input Shaping with Klipper. The image below shows mounting options using the new `shroud_low_profile_alt_adxl.stl` file. The original `shroud_low_profile_41mm.stl` will also work for options 1 and 2. Note that this new `shroud_low_profile_alt_adxl.stl` is designed to use with [this style of "M3 X D5.0 X L4.0" heat set inserts](https://www.aliexpress.com/item/4000232858343.html) from a Voron BOM, rather than hex nuts, to make it easier to repeatedly mount and remove the ADXL345. Longer or shorter inserts may work, as well as other styles, but I can't say for sure.
+
+![ADXL345 Mounting Options](/images/adxl_mounting.jpg)
+
+From left to right:
+
+1. Bottom mount, using the `adxl345_mount4.stl` file, which is  mounted on the front of the shroud using the bottom two holes for the 40 mm hot end fan. This is meant to be a more permanent mounting solution, where you would leave the ADXL345 mounted in place, and simply plug and unplug as needed.
+
+2. Top mount, using either heat set inserts or hex nuts, depending on which verrsion of the shroud you are using. Note that this will position the accelerometer where it would hit the Y end stop, so you would need to print some kind of shield to protect the accelerometer PCB. A better option would be to mount the accelerometer to the bottom of the shroud.
+
+3. Bottom mount, using heat set inserts. Only `shroud_low_profile_alt_adxl.stl` supports this mounting option.
 
 
 ## Photos
